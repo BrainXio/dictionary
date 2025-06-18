@@ -1,0 +1,211 @@
+{
+  "models": {
+    "phi3": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 4}
+      }
+    },
+    "llama3": {
+      "tags": ["language", "tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 16},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 8}
+      }
+    },
+    "dolphin-llama3": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 16},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 8}
+      }
+    },
+    "wizardlm2": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "llama2": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "mistral": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "mixtral:8x7b": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 94},
+        "4bit": {"min_size_gb": 24},
+        "8bit": {"min_size_gb": 47}
+      }
+    },
+    "mixtral:8x22b": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 282},
+        "4bit": {"min_size_gb": 71},
+        "8bit": {"min_size_gb": 141}
+      }
+    },
+    "command-r": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 70},
+        "4bit": {"min_size_gb": 18},
+        "8bit": {"min_size_gb": 35}
+      }
+    },
+    "command-r-plus": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 208},
+        "4bit": {"min_size_gb": 52},
+        "8bit": {"min_size_gb": 104}
+      }
+    },
+    "dolphin-phi": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 6},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "phi": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 6},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "neural-chat": {
+      "tags": ["chat"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "starling-lm": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "codellama": {
+      "tags": ["code"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "llama2-uncensored": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "llama2:13b": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 26},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 13}
+      }
+    },
+    "llama2:70b": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 140},
+        "4bit": {"min_size_gb": 35},
+        "8bit": {"min_size_gb": 70}
+      }
+    },
+    "orca-mini": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 6},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "vicuna": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "llava": {
+      "tags": ["vision", "language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    },
+    "gemma:2b": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 1},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "gemma:7b": {
+      "tags": ["language"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 14},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 7}
+      }
+    }
+  }
+}
