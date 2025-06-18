@@ -1,0 +1,216 @@
+{
+  "instances": {
+    "2gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit"],
+        "qwen3:0.6b": ["4bit"],
+        "qwen3:1.7b": ["4bit"]
+      }
+    },
+    "2gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit"],
+        "qwen3:0.6b": ["4bit"],
+        "qwen3:1.7b": ["4bit"]
+      }
+    },
+    "4gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit"],
+        "qwen3:0.6b": ["4bit", "8bit"],
+        "qwen3:1.7b": ["4bit", "8bit"],
+        "qwen3:4b": ["4bit"]
+      }
+    },
+    "4gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit"],
+        "qwen3:0.6b": ["4bit", "8bit"],
+        "qwen3:1.7b": ["4bit", "8bit"],
+        "qwen3:4b": ["4bit"]
+      }
+    },
+    "8gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit"],
+        "deepseek-r1:7b": ["4bit"],
+        "qwen3:8b": ["4bit"]
+      }
+    },
+    "8gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit"],
+        "deepseek-r1:7b": ["4bit"],
+        "qwen3:8b": ["4bit"]
+      }
+    },
+    "16gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit"],
+        "qwen3:8b": ["4bit", "8bit"],
+        "deepseek-r1:14b": ["4bit"],
+        "qwen3:14b": ["4bit"]
+      }
+    },
+    "16gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit"],
+        "qwen3:8b": ["4bit", "8bit"],
+        "deepseek-r1:14b": ["4bit"],
+        "qwen3:14b": ["4bit"]
+      }
+    },
+    "32gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit"],
+        "qwen3:14b": ["4bit", "8bit"],
+        "deepseek-r1:32b": ["4bit"],
+        "qwen3:30b": ["4bit"],
+        "magistral:24b": ["4bit"]
+      }
+    },
+    "32gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit"],
+        "qwen3:14b": ["4bit", "8bit"],
+        "deepseek-r1:32b": ["4bit"],
+        "qwen3:30b": ["4bit"],
+        "magistral:24b": ["4bit"]
+      }
+    },
+    "64gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit", "none"],
+        "qwen3:14b": ["4bit", "8bit", "none"],
+        "deepseek-r1:32b": ["4bit", "8bit"],
+        "qwen3:30b": ["4bit", "8bit"],
+        "magistral:24b": ["4bit", "8bit"],
+        "deepseek-r1:70b": ["4bit"],
+        "qwen3:32b": ["4bit"]
+      }
+    },
+    "64gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit", "none"],
+        "qwen3:14b": ["4bit", "8bit", "none"],
+        "deepseek-r1:32b": ["4bit", "8bit"],
+        "qwen3:30b": ["4bit", "8bit"],
+        "magistral:24b": ["4bit", "8bit"],
+        "deepseek-r1:70b": ["4bit"],
+        "qwen3:32b": ["4bit"]
+      }
+    },
+    "128gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit", "none"],
+        "qwen3:14b": ["4bit", "8bit", "none"],
+        "deepseek-r1:32b": ["4bit", "8bit", "none"],
+        "qwen3:30b": ["4bit", "8bit", "none"],
+        "magistral:24b": ["4bit", "8bit", "none"],
+        "deepseek-r1:70b": ["4bit", "8bit"],
+        "qwen3:32b": ["4bit", "8bit"],
+        "qwen3:235b": ["4bit"]
+      }
+    },
+    "128gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit", "none"],
+        "qwen3:14b": ["4bit", "8bit", "none"],
+        "deepseek-r1:32b": ["4bit", "8bit", "none"],
+        "qwen3:30b": ["4bit", "8bit", "none"],
+        "magistral:24b": ["4bit", "8bit", "none"],
+        "deepseek-r1:70b": ["4bit", "8bit"],
+        "qwen3:32b": ["4bit", "8bit"],
+        "qwen3:235b": ["4bit"]
+      }
+    },
+    "256gb-gpu": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit", "none"],
+        "qwen3:14b": ["4bit", "8bit", "none"],
+        "deepseek-r1:32b": ["4bit", "8bit", "none"],
+        "qwen3:30b": ["4bit", "8bit", "none"],
+        "magistral:24b": ["4bit", "8bit", "none"],
+        "deepseek-r1:70b": ["4bit", "8bit", "none"],
+        "qwen3:32b": ["4bit", "8bit", "none"],
+        "qwen3:235b": ["4bit", "8bit"],
+        "deepseek-r1:671b": ["4bit"]
+      }
+    },
+    "256gb-ram": {
+      "supported_models": {
+        "deepseek-r1:1.5b": ["4bit", "8bit", "none"],
+        "qwen3:0.6b": ["4bit", "8bit", "none"],
+        "qwen3:1.7b": ["4bit", "8bit", "none"],
+        "qwen3:4b": ["4bit", "8bit", "none"],
+        "deepseek-r1:7b": ["4bit", "8bit", "none"],
+        "qwen3:8b": ["4bit", "8bit", "none"],
+        "deepseek-r1:14b": ["4bit", "8bit", "none"],
+        "qwen3:14b": ["4bit", "8bit", "none"],
+        "deepseek-r1:32b": ["4bit", "8bit", "none"],
+        "qwen3:30b": ["4bit", "8bit", "none"],
+        "magistral:24b": ["4bit", "8bit", "none"],
+        "deepseek-r1:70b": ["4bit", "8bit", "none"],
+        "qwen3:32b": ["4bit", "8bit", "none"],
+        "qwen3:235b": ["4bit", "8bit"],
+        "deepseek-r1:671b": ["4bit"]
+      }
+    }
+  }
+}
