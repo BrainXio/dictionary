@@ -1,0 +1,220 @@
+{
+  "instances": {
+    "2gb-gpu": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit"],
+        "snowflake-arctic-embed:0.033b": ["4bit"],
+        "snowflake-arctic-embed:0.11b": ["4bit"],
+        "snowflake-arctic-embed:0.137b": ["4bit"],
+        "snowflake-arctic-embed:0.335b": ["4bit"],
+        "all-minilm:0.022b": ["4bit"],
+        "all-minilm:0.033b": ["4bit"],
+        "granite-embedding:0.03b": ["4bit"],
+        "granite-embedding:0.278b": ["4bit"],
+        "paraphrase-multilingual:0.278b": ["4bit"]
+      }
+    },
+    "2gb-ram": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit"],
+        "snowflake-arctic-embed:0.033b": ["4bit"],
+        "snowflake-arctic-embed:0.11b": ["4bit"],
+        "snowflake-arctic-embed:0.137b": ["4bit"],
+        "snowflake-arctic-embed:0.335b": ["4bit"],
+        "all-minilm:0.022b": ["4bit"],
+        "all-minilm:0.033b": ["4bit"],
+        "granite-embedding:0.03b": ["4bit"],
+        "granite-embedding:0.278b": ["4bit"],
+        "paraphrase-multilingual:0.278b": ["4bit"]
+      }
+    },
+    "4gb-gpu": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit"],
+        "all-minilm:0.022b": ["4bit", "8bit"],
+        "all-minilm:0.033b": ["4bit", "8bit"],
+        "granite-embedding:0.03b": ["4bit", "8bit"],
+        "granite-embedding:0.278b": ["4bit", "8bit"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit"],
+        "nomic-embed-text:0.137b": ["4bit"],
+        "mxbai-embed-large:0.335b": ["4bit"],
+        "bge-m3:0.567b": ["4bit"],
+        "bge-large:0.335b": ["4bit"]
+      }
+    },
+    "4gb-ram": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit"],
+        "all-minilm:0.022b": ["4bit", "8bit"],
+        "all-minilm:0.033b": ["4bit", "8bit"],
+        "granite-embedding:0.03b": ["4bit", "8bit"],
+        "granite-embedding:0.278b": ["4bit", "8bit"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit"],
+        "nomic-embed-text:0.137b": ["4bit"],
+        "mxbai-embed-large:0.335b": ["4bit"],
+        "bge-m3:0.567b": ["4bit"],
+        "bge-large:0.335b": ["4bit"]
+      }
+    },
+    "8gb-gpu": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit"],
+        "bge-m3:0.567b": ["4bit", "8bit"],
+        "bge-large:0.335b": ["4bit", "8bit"],
+        "snowflake-arctic-embed2:0.568b": ["4bit"]
+      }
+    },
+    "8gb-ram": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit"],
+        "bge-m3:0.567b": ["4bit", "8bit"],
+        "bge-large:0.335b": ["4bit", "8bit"],
+        "snowflake-arctic-embed2:0.568b": ["4bit"]
+      }
+    },
+    "16gb-gpu": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit", "none"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit", "none"],
+        "bge-m3:0.567b": ["4bit", "8bit", "none"],
+        "bge-large:0.335b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed2:0.568b": ["4bit", "8bit"]
+      }
+    },
+    "16gb-ram": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit", "none"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit", "none"],
+        "bge-m3:0.567b": ["4bit", "8bit", "none"],
+        "bge-large:0.335b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed2:0.568b": ["4bit", "8bit"]
+      }
+    },
+    "32gb-gpu": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit", "none"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit", "none"],
+        "bge-m3:0.567b": ["4bit", "8bit", "none"],
+        "bge-large:0.335b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed2:0.568b": ["4bit", "8bit", "none"]
+      }
+    },
+    "32gb-ram": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit", "none"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit", "none"],
+        "bge-m3:0.567b": ["4bit", "8bit", "none"],
+        "bge-large:0.335b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed2:0.568b": ["4bit", "8bit", "none"]
+      }
+    },
+    "64gb-gpu": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit", "none"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit", "none"],
+        "bge-m3:0.567b": ["4bit", "8bit", "none"],
+        "bge-large:0.335b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed2:0.568b": ["4bit", "8bit", "none"]
+      }
+    },
+    "64gb-ram": {
+      "supported_models": {
+        "snowflake-arctic-embed:0.022b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.033b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.11b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.137b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed:0.335b": ["4bit", "8bit", "none"],
+        "all-minilm:0.022b": ["4bit", "8bit", "none"],
+        "all-minilm:0.033b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.03b": ["4bit", "8bit", "none"],
+        "granite-embedding:0.278b": ["4bit", "8bit", "none"],
+        "paraphrase-multilingual:0.278b": ["4bit", "8bit", "none"],
+        "nomic-embed-text:0.137b": ["4bit", "8bit", "none"],
+        "mxbai-embed-large:0.335b": ["4bit", "8bit", "none"],
+        "bge-m3:0.567b": ["4bit", "8bit", "none"],
+        "bge-large:0.335b": ["4bit", "8bit", "none"],
+        "snowflake-arctic-embed2:0.568b": ["4bit", "8bit", "none"]
+      }
+    }
+  }
+}
