@@ -1,210 +1,2919 @@
 {
   "models": {
-    "phi3": {
-      "tags": ["language"],
+    "deepseek-r1:1.5b": {
+      "tags": ["tools", "thinking"],
       "requires_gpu": false,
       "quantization_options": {
-        "none": {"min_size_gb": 8},
-        "4bit": {"min_size_gb": 2},
-        "8bit": {"min_size_gb": 4}
-      }
-    },
-    "llama3": {
-      "tags": ["language", "tools"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 16},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 8}
-      }
-    },
-    "dolphin-llama3": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 16},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 8}
-      }
-    },
-    "wizardlm2": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
-      }
-    },
-    "llama2": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
-      }
-    },
-    "mistral": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
-      }
-    },
-    "mixtral:8x7b": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 94},
-        "4bit": {"min_size_gb": 24},
-        "8bit": {"min_size_gb": 47}
-      }
-    },
-    "mixtral:8x22b": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 282},
-        "4bit": {"min_size_gb": 71},
-        "8bit": {"min_size_gb": 141}
-      }
-    },
-    "command-r": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 70},
-        "4bit": {"min_size_gb": 18},
-        "8bit": {"min_size_gb": 35}
-      }
-    },
-    "command-r-plus": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 208},
-        "4bit": {"min_size_gb": 52},
-        "8bit": {"min_size_gb": 104}
-      }
-    },
-    "dolphin-phi": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 6},
+        "none": {"min_size_gb": 5},
         "4bit": {"min_size_gb": 2},
         "8bit": {"min_size_gb": 3}
       }
     },
-    "phi": {
-      "tags": ["language"],
+    "deepseek-r1:7b": {
+      "tags": ["tools", "thinking"],
       "requires_gpu": false,
       "quantization_options": {
-        "none": {"min_size_gb": 6},
-        "4bit": {"min_size_gb": 2},
-        "8bit": {"min_size_gb": 3}
-      }
-    },
-    "neural-chat": {
-      "tags": ["chat"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
-      }
-    },
-    "starling-lm": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
-      }
-    },
-    "codellama": {
-      "tags": ["code"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
-      }
-    },
-    "llama2-uncensored": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
-      }
-    },
-    "llama2:13b": {
-      "tags": ["language"],
-      "requires_gpu": false,
-      "quantization_options": {
-        "none": {"min_size_gb": 26},
+        "none": {"min_size_gb": 18},
         "4bit": {"min_size_gb": 7},
-        "8bit": {"min_size_gb": 13}
+        "8bit": {"min_size_gb": 11}
       }
     },
-    "llama2:70b": {
-      "tags": ["language"],
+    "deepseek-r1:14b": {
+      "tags": ["tools", "thinking"],
       "requires_gpu": false,
       "quantization_options": {
-        "none": {"min_size_gb": 140},
-        "4bit": {"min_size_gb": 35},
-        "8bit": {"min_size_gb": 70}
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
       }
     },
-    "orca-mini": {
-      "tags": ["language"],
+    "deepseek-r1:32b": {
+      "tags": ["tools", "thinking"],
       "requires_gpu": false,
       "quantization_options": {
-        "none": {"min_size_gb": 6},
-        "4bit": {"min_size_gb": 2},
-        "8bit": {"min_size_gb": 3}
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
       }
     },
-    "vicuna": {
-      "tags": ["language"],
+    "deepseek-r1:70b": {
+      "tags": ["tools", "thinking"],
       "requires_gpu": false,
       "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
       }
     },
-    "llava": {
-      "tags": ["vision", "language"],
+    "deepseek-r1:671b": {
+      "tags": ["tools", "thinking"],
       "requires_gpu": false,
       "quantization_options": {
-        "none": {"min_size_gb": 14},
-        "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
+        "none": {"min_size_gb": 1678},
+        "4bit": {"min_size_gb": 672},
+        "8bit": {"min_size_gb": 1007}
       }
     },
-    "gemma:2b": {
-      "tags": ["language"],
+    "gemma3:1b": {
+      "tags": ["vision"],
       "requires_gpu": false,
       "quantization_options": {
         "none": {"min_size_gb": 4},
-        "4bit": {"min_size_gb": 1},
+        "4bit": {"min_size_gb": 2},
         "8bit": {"min_size_gb": 2}
       }
     },
-    "gemma:7b": {
-      "tags": ["language"],
+    "gemma3:4b": {
+      "tags": ["vision"],
       "requires_gpu": false,
       "quantization_options": {
-        "none": {"min_size_gb": 14},
+        "none": {"min_size_gb": 10},
         "4bit": {"min_size_gb": 4},
-        "8bit": {"min_size_gb": 7}
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "gemma3:12b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 30},
+        "4bit": {"min_size_gb": 12},
+        "8bit": {"min_size_gb": 18}
+      }
+    },
+    "gemma3:27b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 68},
+        "4bit": {"min_size_gb": 27},
+        "8bit": {"min_size_gb": 41}
+      }
+    },
+    "qwen3:0.6b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 3},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "qwen3:1.7b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "qwen3:4b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "qwen3:8b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "qwen3:14b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "qwen3:30b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 75},
+        "4bit": {"min_size_gb": 30},
+        "8bit": {"min_size_gb": 45}
+      }
+    },
+    "qwen3:32b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "qwen3:235b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 588},
+        "4bit": {"min_size_gb": 235},
+        "8bit": {"min_size_gb": 353}
+      }
+    },
+    "devstral:24b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 60},
+        "4bit": {"min_size_gb": 24},
+        "8bit": {"min_size_gb": 36}
+      }
+    },
+    "llama4:16x17b": {
+      "tags": ["vision", "tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 680},
+        "4bit": {"min_size_gb": 272},
+        "8bit": {"min_size_gb": 408}
+      }
+    },
+    "llama4:128x17b": {
+      "tags": ["vision", "tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5440},
+        "4bit": {"min_size_gb": 2176},
+        "8bit": {"min_size_gb": 3264}
+      }
+    },
+    "qwen2.5vl:3b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "qwen2.5vl:7b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen2.5vl:32b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "qwen2.5vl:72b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 180},
+        "4bit": {"min_size_gb": 72},
+        "8bit": {"min_size_gb": 108}
+      }
+    },
+    "llama3.3:70b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "phi4:14b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "llama3.2:1b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "llama3.2:3b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "llama3.1:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "llama3.1:70b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "llama3.1:405b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 1013},
+        "4bit": {"min_size_gb": 405},
+        "8bit": {"min_size_gb": 608}
+      }
+    },
+    "nomic-embed-text:0.137b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "mistral:7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen2.5:0.5b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 3},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "qwen2.5:1.5b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "qwen2.5:3b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "qwen2.5:7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen2.5:14b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "qwen2.5:32b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "qwen2.5:72b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 180},
+        "4bit": {"min_size_gb": 72},
+        "8bit": {"min_size_gb": 108}
+      }
+    },
+    "llama3:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "llama3:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "llava:7b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "llava:13b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "llava:34b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 85},
+        "4bit": {"min_size_gb": 34},
+        "8bit": {"min_size_gb": 51}
+      }
+    },
+    "qwen2.5-coder:0.5b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 3},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "qwen2.5-coder:1.5b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "qwen2.5-coder:3b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "qwen2.5-coder:7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen2.5-coder:14b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "qwen2.5-coder:32b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "gemma2:2b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "gemma2:9b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 23},
+        "4bit": {"min_size_gb": 9},
+        "8bit": {"min_size_gb": 14}
+      }
+    },
+    "gemma2:27b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 68},
+        "4bit": {"min_size_gb": 27},
+        "8bit": {"min_size_gb": 41}
+      }
+    },
+    "qwen:0.5b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 3},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "qwen:1.8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "qwen:4b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "qwen:7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen:14b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "qwen:32b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "qwen:72b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 180},
+        "4bit": {"min_size_gb": 72},
+        "8bit": {"min_size_gb": 108}
+      }
+    },
+    "qwen:110b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 275},
+        "4bit": {"min_size_gb": 110},
+        "8bit": {"min_size_gb": 165}
+      }
+    },
+    "gemma:2b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "gemma:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen2:0.5b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 3},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "qwen2:1.5b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "qwen2:7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen2:72b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 180},
+        "4bit": {"min_size_gb": 72},
+        "8bit": {"min_size_gb": 108}
+      }
+    },
+    "phi3:3.8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "phi3:14b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "mxbai-embed-large:0.335b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "llama2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "llama2:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "llama2:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "codellama:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "codellama:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "codellama:34b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 85},
+        "4bit": {"min_size_gb": 34},
+        "8bit": {"min_size_gb": 51}
+      }
+    },
+    "codellama:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "llama3.2-vision:11b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 28},
+        "4bit": {"min_size_gb": 11},
+        "8bit": {"min_size_gb": 17}
+      }
+    },
+    "llama3.2-vision:90b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 225},
+        "4bit": {"min_size_gb": 90},
+        "8bit": {"min_size_gb": 135}
+      }
+    },
+    "tinyllama:1.1b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "mistral-nemo:12b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 30},
+        "4bit": {"min_size_gb": 12},
+        "8bit": {"min_size_gb": 18}
+      }
+    },
+    "minicpm-v:8b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "dolphin3:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "qwq:32b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "deepseek-v3:671b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 1678},
+        "4bit": {"min_size_gb": 672},
+        "8bit": {"min_size_gb": 1007}
+      }
+    },
+    "olmo2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "olmo2:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "bge-m3:0.567b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "llama2-uncensored:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "llama2-uncensored:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "llava-llama3:8b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "mixtral:8x7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 115},
+        "4bit": {"min_size_gb": 46},
+        "8bit": {"min_size_gb": 69}
+      }
+    },
+    "mixtral:8x22b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 345},
+        "4bit": {"min_size_gb": 138},
+        "8bit": {"min_size_gb": 207}
+      }
+    },
+    "mistral-small:22b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 55},
+        "4bit": {"min_size_gb": 22},
+        "8bit": {"min_size_gb": 33}
+      }
+    },
+    "mistral-small3.1:24b": {
+      "tags": ["tools", "vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 60},
+        "4bit": {"min_size_gb": 24},
+        "8bit": {"min_size_gb": 36}
+      }
+    },
+    "starcoder2:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "starcoder2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "starcoder2:15b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 38},
+        "4bit": {"min_size_gb": 15},
+        "8bit": {"min_size_gb": 23}
+      }
+    },
+    "smollm2:0.135b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "smollm2:0.36b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "smollm2:1.7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "deepseek-coder-v2:16b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 40},
+        "4bit": {"min_size_gb": 16},
+        "8bit": {"min_size_gb": 24}
+      }
+    },
+    "deepseek-coder-v2:236b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 590},
+        "4bit": {"min_size_gb": 236},
+        "8bit": {"min_size_gb": 354}
+      }
+    },
+    "deepseek-coder:1.3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "deepseek-coder:6.7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 17},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 10}
+      }
+    },
+    "deepseek-coder:33b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 83},
+        "4bit": {"min_size_gb": 33},
+        "8bit": {"min_size_gb": 50}
+      }
+    },
+    "snowflake-arctic-embed:0.022b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "snowflake-arctic-embed:0.033b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "snowflake-arctic-embed:0.11b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "snowflake-arctic-embed:0.137b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "snowflake-arctic-embed:0.335b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "codegemma:2b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "codegemma:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "all-minilm:0.022b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "all-minilm:0.033b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "dolphin-mixtral:8x7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 115},
+        "4bit": {"min_size_gb": 46},
+        "8bit": {"min_size_gb": 69}
+      }
+    },
+    "dolphin-mixtral:8x22b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 345},
+        "4bit": {"min_size_gb": 138},
+        "8bit": {"min_size_gb": 207}
+      }
+    },
+    "phi:2.7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 7},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "openthinker:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "openthinker:32b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "wizardlm2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "wizardlm2:8x22b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 345},
+        "4bit": {"min_size_gb": 138},
+        "8bit": {"min_size_gb": 207}
+      }
+    },
+    "dolphin-mistral:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "orca-mini:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "orca-mini:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "orca-mini:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "orca-mini:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "dolphin-llama3:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "dolphin-llama3:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "codestral:22b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 55},
+        "4bit": {"min_size_gb": 22},
+        "8bit": {"min_size_gb": 33}
+      }
+    },
+    "command-r:35b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 88},
+        "4bit": {"min_size_gb": 35},
+        "8bit": {"min_size_gb": 53}
+      }
+    },
+    "smollm:0.135b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "smollm:0.36b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "smollm:1.7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "hermes3:3b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "hermes3:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "hermes3:70b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "hermes3:405b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 1013},
+        "4bit": {"min_size_gb": 405},
+        "8bit": {"min_size_gb": 608}
+      }
+    },
+    "phi3.5:3.8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "yi:6b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 15},
+        "4bit": {"min_size_gb": 6},
+        "8bit": {"min_size_gb": 9}
+      }
+    },
+    "yi:9b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 23},
+        "4bit": {"min_size_gb": 9},
+        "8bit": {"min_size_gb": 14}
+      }
+    },
+    "yi:34b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 85},
+        "4bit": {"min_size_gb": 34},
+        "8bit": {"min_size_gb": 51}
+      }
+    },
+    "zephyr:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "zephyr:141b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 353},
+        "4bit": {"min_size_gb": 141},
+        "8bit": {"min_size_gb": 212}
+      }
+    },
+    "granite-code:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "granite-code:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "granite-code:20b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 50},
+        "4bit": {"min_size_gb": 20},
+        "8bit": {"min_size_gb": 30}
+      }
+    },
+    "granite-code:34b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 85},
+        "4bit": {"min_size_gb": 34},
+        "8bit": {"min_size_gb": 51}
+      }
+    },
+    "wizard-vicuna-uncensored:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "wizard-vicuna-uncensored:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "wizard-vicuna-uncensored:30b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 75},
+        "4bit": {"min_size_gb": 30},
+        "8bit": {"min_size_gb": 45}
+      }
+    },
+    "moondream:1.8b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "starcoder:1b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "starcoder:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "starcoder:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "starcoder:15b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 38},
+        "4bit": {"min_size_gb": 15},
+        "8bit": {"min_size_gb": 23}
+      }
+    },
+    "phi4-mini:3.8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "vicuna:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "vicuna:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "vicuna:33b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 83},
+        "4bit": {"min_size_gb": 33},
+        "8bit": {"min_size_gb": 50}
+      }
+    },
+    "mistral-openorca:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "openchat:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "deepseek-v2:16b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 40},
+        "4bit": {"min_size_gb": 16},
+        "8bit": {"min_size_gb": 24}
+      }
+    },
+    "deepseek-v2:236b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 590},
+        "4bit": {"min_size_gb": 236},
+        "8bit": {"min_size_gb": 354}
+      }
+    },
+    "openhermes:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "codeqwen:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "deepseek-llm:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "deepseek-llm:67b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 168},
+        "4bit": {"min_size_gb": 67},
+        "8bit": {"min_size_gb": 101}
+      }
+    },
+    "llama2-chinese:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "llama2-chinese:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "deepcoder:1.5b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "deepcoder:14b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "codegeex4:9b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 23},
+        "4bit": {"min_size_gb": 9},
+        "8bit": {"min_size_gb": 14}
+      }
+    },
+    "aya:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "aya:35b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 88},
+        "4bit": {"min_size_gb": 35},
+        "8bit": {"min_size_gb": 53}
+      }
+    },
+    "mistral-large:123b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 308},
+        "4bit": {"min_size_gb": 123},
+        "8bit": {"min_size_gb": 185}
+      }
+    },
+    "stable-code:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "glm4:9b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 23},
+        "4bit": {"min_size_gb": 9},
+        "8bit": {"min_size_gb": 14}
+      }
+    },
+    "tinydolphin:1.1b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "granite3.2:2b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "granite3.2:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "nous-hermes2:10.7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 27},
+        "4bit": {"min_size_gb": 11},
+        "8bit": {"min_size_gb": 16}
+      }
+    },
+    "nous-hermes2:34b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 85},
+        "4bit": {"min_size_gb": 34},
+        "8bit": {"min_size_gb": 51}
+      }
+    },
+    "qwen2-math:1.5b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "qwen2-math:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "qwen2-math:72b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 180},
+        "4bit": {"min_size_gb": 72},
+        "8bit": {"min_size_gb": 108}
+      }
+    },
+    "command-r-plus:104b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 260},
+        "4bit": {"min_size_gb": 104},
+        "8bit": {"min_size_gb": 156}
+      }
+    },
+    "wizardcoder:33b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 83},
+        "4bit": {"min_size_gb": 33},
+        "8bit": {"min_size_gb": 50}
+      }
+    },
+    "cogito:3b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "cogito:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "cogito:14b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "cogito:32b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "cogito:70b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "magistral:24b": {
+      "tags": ["tools", "thinking"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 60},
+        "4bit": {"min_size_gb": 24},
+        "8bit": {"min_size_gb": 36}
+      }
+    },
+    "bakllava:7b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "neural-chat:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "stablelm2:1.6b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "stablelm2:12b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 30},
+        "4bit": {"min_size_gb": 12},
+        "8bit": {"min_size_gb": 18}
+      }
+    },
+    "granite3.2-vision:2b": {
+      "tags": ["vision", "tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "llama3-chatqa:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "llama3-chatqa:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "bge-large:0.335b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "reflection:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "wizard-math:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "wizard-math:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "wizard-math:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "llama3-gradient:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "llama3-gradient:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "granite3-dense:2b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "granite3-dense:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "llava-phi3:3.8b": {
+      "tags": ["vision"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "granite3.1-dense:2b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "granite3.1-dense:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "samantha-mistral:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "phi4-reasoning:14b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 36},
+        "4bit": {"min_size_gb": 14},
+        "8bit": {"min_size_gb": 21}
+      }
+    },
+    "dolphincoder:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "dolphincoder:15b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 38},
+        "4bit": {"min_size_gb": 15},
+        "8bit": {"min_size_gb": 23}
+      }
+    },
+    "snowflake-arctic-embed2:0.568b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 3},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "exaone3.5:2.4b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 6},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 4}
+      }
+    },
+    "exaone3.5:7.8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "exaone3.5:32b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "nous-hermes:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "nous-hermes:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "xwinlm:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "xwinlm:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "starling-lm:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "phind-codellama:34b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 85},
+        "4bit": {"min_size_gb": 34},
+        "8bit": {"min_size_gb": 51}
+      }
+    },
+    "nemotron-mini:4b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "yi-coder:1.5b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "yi-coder:9b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 23},
+        "4bit": {"min_size_gb": 9},
+        "8bit": {"min_size_gb": 14}
+      }
+    },
+    "solar:10.7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 27},
+        "4bit": {"min_size_gb": 11},
+        "8bit": {"min_size_gb": 16}
+      }
+    },
+    "athene-v2:72b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 180},
+        "4bit": {"min_size_gb": 72},
+        "8bit": {"min_size_gb": 108}
+      }
+    },
+    "deepscaler:1.5b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "internlm2:1m": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "internlm2:1.8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "internlm2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "internlm2:20b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 50},
+        "4bit": {"min_size_gb": 20},
+        "8bit": {"min_size_gb": 30}
+      }
+    },
+    "yarn-llama2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "yarn-llama2:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "wizardlm:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "dolphin-phi:2.7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 7},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "falcon:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "falcon:40b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 100},
+        "4bit": {"min_size_gb": 40},
+        "8bit": {"min_size_gb": 60}
+      }
+    },
+    "falcon:180b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 450},
+        "4bit": {"min_size_gb": 180},
+        "8bit": {"min_size_gb": 270}
+      }
+    },
+    "nemotron:70b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "llama3-groq-tool-use:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "llama3-groq-tool-use:70b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "wizardlm-uncensored:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "orca2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "orca2:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "aya-expanse:8b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "aya-expanse:32b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "paraphrase-multilingual:0.278b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "stable-beluga:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "stable-beluga:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "stable-beluga:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "smallthinker:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "nous-hermes2-mixtral:8x7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 115},
+        "4bit": {"min_size_gb": 46},
+        "8bit": {"min_size_gb": 69}
+      }
+    },
+    "falcon3:1b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "falcon3:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "falcon3:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "falcon3:10b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 25},
+        "4bit": {"min_size_gb": 10},
+        "8bit": {"min_size_gb": 15}
+      }
+    },
+    "opencoder:1.5b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "opencoder:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "meditron:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "meditron:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "granite-embedding:0.03b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "granite-embedding:0.278b": {
+      "tags": ["embedding"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 2},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "deepseek-v2.5:236b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 590},
+        "4bit": {"min_size_gb": 236},
+        "8bit": {"min_size_gb": 354}
+      }
+    },
+    "exaone-deep:2.4b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 6},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 4}
+      }
+    },
+    "exaone-deep:7.8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "exaone-deep:32b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 80},
+        "4bit": {"min_size_gb": 32},
+        "8bit": {"min_size_gb": 48}
+      }
+    },
+    "medllama2:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "granite3-moe:1b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "granite3-moe:3b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "granite3.1-moe:1b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "granite3.1-moe:3b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "llama-pro:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "yarn-mistral:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "nexusraven:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "r1-1776:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "r1-1776:671b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 1678},
+        "4bit": {"min_size_gb": 672},
+        "8bit": {"min_size_gb": 1007}
+      }
+    },
+    "shieldgemma:2b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "shieldgemma:9b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 23},
+        "4bit": {"min_size_gb": 9},
+        "8bit": {"min_size_gb": 14}
+      }
+    },
+    "shieldgemma:27b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 68},
+        "4bit": {"min_size_gb": 27},
+        "8bit": {"min_size_gb": 41}
+      }
+    },
+    "llama-guard3:1b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "llama-guard3:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "codeup:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "everythinglm:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "reader-lm:0.5b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 3},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "reader-lm:1.5b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "stablelm-zephyr:3b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 8},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 5}
+      }
+    },
+    "mathstral:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "solar-pro:22b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 55},
+        "4bit": {"min_size_gb": 22},
+        "8bit": {"min_size_gb": 33}
+      }
+    },
+    "command-r7b:7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "command-r7b-arabic:7b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "marco-o1:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "duckdb-nsql:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "falcon2:11b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 28},
+        "4bit": {"min_size_gb": 11},
+        "8bit": {"min_size_gb": 17}
+      }
+    },
+    "magicoder:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "mistrallite:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "codebooga:34b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 85},
+        "4bit": {"min_size_gb": 34},
+        "8bit": {"min_size_gb": 51}
+      }
+    },
+    "wizard-vicuna:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "nuextract:3.8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "bespoke-minicheck:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "tulu3:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "tulu3:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "megadolphin:120b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 300},
+        "4bit": {"min_size_gb": 120},
+        "8bit": {"min_size_gb": 180}
+      }
+    },
+    "notux:8x7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 115},
+        "4bit": {"min_size_gb": 46},
+        "8bit": {"min_size_gb": 69}
+      }
+    },
+    "open-orca-platypus2:13b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 33},
+        "4bit": {"min_size_gb": 13},
+        "8bit": {"min_size_gb": 20}
+      }
+    },
+    "phi4-mini-reasoning:3.8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 10},
+        "4bit": {"min_size_gb": 4},
+        "8bit": {"min_size_gb": 6}
+      }
+    },
+    "notus:7b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 18},
+        "4bit": {"min_size_gb": 7},
+        "8bit": {"min_size_gb": 11}
+      }
+    },
+    "goliath:70b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "firefunction-v2:70b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 175},
+        "4bit": {"min_size_gb": 70},
+        "8bit": {"min_size_gb": 105}
+      }
+    },
+    "dbrx:132b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 330},
+        "4bit": {"min_size_gb": 132},
+        "8bit": {"min_size_gb": 198}
+      }
+    },
+    "granite3-guardian:2b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 5},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 3}
+      }
+    },
+    "granite3-guardian:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "command-a:111b": {
+      "tags": ["tools"],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 278},
+        "4bit": {"min_size_gb": 111},
+        "8bit": {"min_size_gb": 167}
+      }
+    },
+    "alfred:40b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 100},
+        "4bit": {"min_size_gb": 40},
+        "8bit": {"min_size_gb": 60}
+      }
+    },
+    "sailor2:1b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 4},
+        "4bit": {"min_size_gb": 2},
+        "8bit": {"min_size_gb": 2}
+      }
+    },
+    "sailor2:8b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 20},
+        "4bit": {"min_size_gb": 8},
+        "8bit": {"min_size_gb": 12}
+      }
+    },
+    "sailor2:20b": {
+      "tags": [],
+      "requires_gpu": false,
+      "quantization_options": {
+        "none": {"min_size_gb": 50},
+        "4bit": {"min_size_gb": 20},
+        "8bit": {"min_size_gb": 30}
       }
     }
   }
